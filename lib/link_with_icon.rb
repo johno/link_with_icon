@@ -2,9 +2,8 @@ require "link_with_icon/version"
 
 module LinkWithIcon
 
-  def link_with_icon(href, link_text, options = {})
-    icon_class = options.delete(:icon)
-    link_to("#{ icon(icon_class) }#{ link_text }".html_safe, href, options)
+  def link_with_icon(icon_class = nil, name = nil, options = nil, html_options = nil, &block)
+    link_to("#{ name }#{ icon(icon_class) }".html_safe, options, html_options &block)
   end
 
   private
