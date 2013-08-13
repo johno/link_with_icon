@@ -10,7 +10,7 @@ module LinkWithIcon
   private
 
     def icon(icon_class)
-      "<i class='icon-#{ icon }'></i>"
+      "<i class='icon-#{ icon_class }'></i>"
     end
 end
 
