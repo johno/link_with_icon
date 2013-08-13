@@ -1,6 +1,11 @@
 # LinkWithIcon
 
-TODO: Write a gem description
+Keep your `link_to` calls simple and readable, even when using icons.
+
+```html+erb
+<%= link_with_icon(:flag, 'Link Name', 'www.google.com') %>
+# => <a href="www.google.com"><i class="icon-flag"></i>Link Name</a>
+```
 
 ## Installation
 
@@ -18,7 +23,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Using `link_with_icon` is as simple as pie:
+
+```html+erb
+<%= link_with_icon(:globe, 'A Link!', root_path) %>
+```
+
+It can handle all the normal options of the Rails `link_to` helper.
+
+```html+erb
+<%= link_with_icon(:arrow, 'Click Me', another_awesome_path, onclick: 'alert("things");') %>
+```
 
 ## Contributing
 
