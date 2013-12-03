@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["johnotander@gmail.com"]
   spec.description   = %q{Wrapper for the link_to method to include icons.}
   spec.summary       = %q{Wrapper for the link_to method to include icons.}
-  spec.homepage      = "http://johnotander.com/link_with_icon"
+  spec.homepage      = "http://github.com/johnotander/link_with_icon"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
