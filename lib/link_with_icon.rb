@@ -3,7 +3,7 @@ require "link_with_icon/version"
 module LinkWithIcon
 
   def link_with_icon(icon_class = nil, name = nil, options = nil, html_options = nil, &block)
-    link_to("#{ name }#{ icon(icon_class) }".html_safe, options, html_options &block)
+    link_to("#{ name }#{ icon(icon_class) }".html_safe, options, html_options, &block)
   end
 
   private
