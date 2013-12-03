@@ -33,6 +33,7 @@ It can handle all the normal options of the Rails `link_to` helper.
 
 ```html+erb
 <%= link_with_icon(:arrow, 'Click Me', another_awesome_path, onclick: 'alert("things");') %>
+# => <a href="/awesome" onclick="alert('lol');"><i class="icon-arrow"></i>Click Me</a>
 ```
 
 ## Contributing
