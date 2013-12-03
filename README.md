@@ -27,6 +27,7 @@ Using `link_with_icon` is as simple as pie:
 
 ```html+erb
 <%= link_with_icon(:globe, 'A Link!', root_path) %>
+# => <a href="/"><i class="icon-globe"></i>A Link!</a>
 ```
 
 It can handle all the normal options of the Rails `link_to` helper.
